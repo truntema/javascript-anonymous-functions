@@ -1,3 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const allResults = await Promise.all(items.map(async (item) => {}));
-[foo, bar] = [bar, foo];
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const minNumber = arr => Math.min(...arr);
