@@ -1,3 +1,2 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const allResults = await Promise.all(items.map(async (item) => {}));
+const merge = Object.assign({}, obj1, obj2);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
