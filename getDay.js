@@ -1,1 +1,1 @@
-var pattern = {};
+var DELIM_SIZE = 4;
