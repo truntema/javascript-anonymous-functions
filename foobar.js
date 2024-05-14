@@ -1,3 +1,3 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const minNumber = arr => Math.min(...arr);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const toggleBool = () => (bool = !bool);
+const fullName = name || 'buddy';
