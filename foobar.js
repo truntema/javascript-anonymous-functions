@@ -1,3 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const toggleBool = () => (bool = !bool);
-const fullName = name || 'buddy';
+console.log( "A" - "B" + "2");
+var c = new Counter(); c.add(); c.add(); c.add();
+console.log(false == '0');
