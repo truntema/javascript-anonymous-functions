@@ -1,3 +1,3 @@
-console.log( "A" - "B" + "2");
-var c = new Counter(); c.add(); c.add(); c.add();
-console.log(false == '0');
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const flattenedArray = arr => [].concat(...arr);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
