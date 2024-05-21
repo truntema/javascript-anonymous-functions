@@ -1,3 +1,3 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const channel = getChannel(computedAppVersion);
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
