@@ -1,2 +1,3 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const merge = [...new Set(a.concat(b))];
+var c = new Counter(); c.add(); c.add(); c.add();
+console.log(false === '0');
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
