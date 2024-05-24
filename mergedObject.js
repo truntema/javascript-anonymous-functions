@@ -1,3 +1,1 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
