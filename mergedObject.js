@@ -1,1 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const results = await Promise.all(resultingPromises);
+const channelName = getChannelName(channel);
+const maxNumber = arr => Math.max(...arr);
