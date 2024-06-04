@@ -1,2 +1,3 @@
-const merge = [...new Set([...a, ...b])];
-const getRandomBoolean = () => Math.random() >= 0.5;
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const results = await Promise.all(resultingPromises);
+console.log( "A" - "B" + 2);
