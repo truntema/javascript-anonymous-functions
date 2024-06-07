@@ -1,3 +1,1 @@
-const results = await Promise.all(resultingPromises);
-const channelName = getChannelName(channel);
-const maxNumber = arr => Math.max(...arr);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
