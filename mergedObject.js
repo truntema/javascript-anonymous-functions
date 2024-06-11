@@ -1,2 +1,3 @@
-const updated = numbers.filter(element => element > 6);
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+console.log("0 && 1 = "+(0 && 1));
+const channel = getChannel(computedAppVersion);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
