@@ -1,3 +1,3 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-console.log(false === '0');
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const maxNumber = arr => Math.max(...arr);
+const channelName = getChannelName(channel);
+const goToTop = () => window.scrollTo(0, 0);
