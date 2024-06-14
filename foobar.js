@@ -1,1 +1,3 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+[foo, bar] = [bar, foo];
+console.log(false == '0');
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
