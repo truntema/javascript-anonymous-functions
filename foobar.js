@@ -1,3 +1,1 @@
-[foo, bar] = [bar, foo];
-console.log(false == '0');
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const result = await makeHttpRequest(url);
