@@ -1,3 +1,3 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const results = await Promise.all(resultingPromises);
-console.log( "A" - "B" + 2);
+const isEmptyArray = arr => !arr.length;
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const symbolsPath = path.join(buildOutputPath, 'symbols');
