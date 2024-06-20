@@ -1,2 +1,2 @@
-const updated = numbers.filter(element => element > 6);
-console.log(1 +  -"1" + "2");
+console.log(false === '0');
+const randomString = () => Math.random().toString(36).slice(2);
