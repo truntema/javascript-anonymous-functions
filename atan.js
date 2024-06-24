@@ -1,2 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-console.log("1 || 2 = "+(1 || 2));
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const appName = getAppName(channel);
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
