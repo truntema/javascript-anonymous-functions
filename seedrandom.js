@@ -1,2 +1,2 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const merge = (a, b) => a.concat(b);
+var arr2 = arr1.reverse();
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
