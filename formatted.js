@@ -1,2 +1,3 @@
-const executableName = getExecutableName(channel, appName);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const channelName = getChannelName(channel);
+const allResults = await Promise.all(items.map(async (item) => {}));
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
