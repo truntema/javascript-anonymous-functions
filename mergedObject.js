@@ -1,3 +1,3 @@
-const isArray = (arr) => Array.isArray(arr);
-var arr3 = "jones".split('');
-console.log("0 && 1 = "+(0 && 1));
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+console.log("1 && 2 = "+(1 && 2));
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
