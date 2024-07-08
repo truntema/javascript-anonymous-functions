@@ -1,2 +1,2 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const merge = [...new Set([...a, ...b])];
+const merge = (a, b) => [...a, ...b];
