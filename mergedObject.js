@@ -1,1 +1,1 @@
-const executableName = getExecutableName(channel, appName);
+const maxNumber = arr => Math.max(...arr);
