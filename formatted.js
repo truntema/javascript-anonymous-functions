@@ -1,3 +1,2 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const merge = [...new Set([...a, ...b])];
-function myAPITS(someString: string, someNum: number) { ... };
+console.log("0 || 1 = "+(0 || 1));
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
