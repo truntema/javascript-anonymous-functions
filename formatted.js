@@ -1,2 +1,2 @@
-console.log("0 || 1 = "+(0 || 1));
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
