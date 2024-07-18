@@ -1,1 +1,1 @@
-const result = await makeHttpRequest(url);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
