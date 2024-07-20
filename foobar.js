@@ -1,1 +1,1 @@
-const merge = (a, b) => a.concat(b);
+var arr3 = "jones".split('');
