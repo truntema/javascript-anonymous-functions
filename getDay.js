@@ -1,3 +1,3 @@
-console.log(1 +  +"2" + "2");
-const allResults = await Promise.all(items.map(async (item) => {}));
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const fullName = name || 'buddy';
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
