@@ -1,2 +1,3 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+console.log(1 +  -"1" + "2");
+const stringReverse = str => str.split("").reverse().join("");
+const currentDate = () => new Date().toLocaleDateString('en-US');
