@@ -1,2 +1,2 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const repositoryRootPath = path.resolve(__dirname, '..');
+const uniqueArr = (arr) => [...new Set(arr)];
