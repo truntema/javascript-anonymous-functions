@@ -1,3 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const toggleBool = () => (bool = !bool);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
